@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "A Promise-based authentication method for Imperial College student accounts",
   "main": "auth.js",
-  "scripts": {
-    "start": "node example.js"
-  },
   "author": "Hilliam Tung",
   "license": "MIT",
   "dependencies": {
