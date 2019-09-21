@@ -1,4 +1,4 @@
-const { authImperial } = require("./auth");
+const authImperial = require("./auth");
 
 (async () => {
     let loggedIn = await authImperial("SHORTCODE", "PASS");

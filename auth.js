@@ -4,9 +4,14 @@ const cheerio = require("cheerio"); // Traverse returned HTML from request
 
 // A bank of error messages provided upon different results of login request
 const messageBank = {
-    "Your access request has timed out.": true, // success - message alerting user of a missed redirection to successful login page
-    "The username and/or password you entered was incorrect, please try again.": false, // failure - wrong login details
-    "An error occurred, please try again.": false // failure - no password given
+    "Your access request has timed out.": true, 
+    // success - message alerting user of a missed redirection to successful login page
+
+    "The username and/or password you entered was incorrect, please try again.": false,
+    // failure - wrong login details
+
+    "An error occurred, please try again.": false
+    // failure - no password given
 }
 
 async function authenticate(shortcode, pass) {
@@ -23,4 +28,4 @@ async function authenticate(shortcode, pass) {
     return messageBank[msg] || false;
 }
 
-module.exports.authImperial = authenticate;
+module.exports = authenticate
