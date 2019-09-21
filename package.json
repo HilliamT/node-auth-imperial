@@ -1,0 +1,16 @@
+{
+  "name": "auth-imperial",
+  "version": "1.0.0",
+  "description": "A Promise-based authentication method for Imperial College student accounts",
+  "main": "auth.js",
+  "scripts": {
+    "start": "node example.js"
+  },
+  "author": "Hilliam Tung",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "querystring": "^0.2.0"
+  }
+}
