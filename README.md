@@ -18,7 +18,7 @@ npm install auth-imperial
 
 It's as simple as exporting the module!
 ```
-const { authImperial } = require("./auth");
+const authImperial = require("auth-imperial");
 
 (async () => {
     let loggedIn = await authImperial("SHORTCODE", "PASS");
