@@ -14,7 +14,7 @@ const messageBank = {
     // failure - no password given
 }
 
-async function authenticate(shortcode, pass) {
+async function authImperial(shortcode, pass) {
     let { data } = await axios.post("https://www.imperial.ac.uk/secure/login/ldap-login/", querystring.stringify({
         uname: shortcode,
         pwd: pass
@@ -28,4 +28,4 @@ async function authenticate(shortcode, pass) {
     return messageBank[msg] || false;
 }
 
-module.exports = authenticate
+module.exports = authImperial;
