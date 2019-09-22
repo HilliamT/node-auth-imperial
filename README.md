@@ -1,6 +1,7 @@
 # node-auth-imperial
 
 A Promise-based NodeJS authentication method for Imperial College student accounts
+
 ![npm](https://img.shields.io/npm/v/auth-imperial)
 ![npm](https://img.shields.io/npm/dw/auth-imperial)
 ![NPM](https://img.shields.io/npm/l/auth-imperial)
