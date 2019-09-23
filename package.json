@@ -1,6 +1,6 @@
 {
   "name": "auth-imperial",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "A Promise-based authentication method for Imperial College student accounts",
   "main": "auth.js",
   "author": "Hilliam Tung",
