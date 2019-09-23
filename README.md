@@ -6,6 +6,7 @@ A Promise-based NodeJS authentication method for Imperial College student accoun
 ![npm](https://img.shields.io/npm/dw/auth-imperial)
 ![NPM](https://img.shields.io/npm/l/auth-imperial)
 
+### Inspiration
 This came about through the lack of methods to authenticate Imperial student accounts externally of the Imperial College website, with the only other provider on campus requiring setting up a Kerberos instance within the Imperial network to communicate with.
 
 This way of authenticating was found through looking at the code of "https://www.imperial.ac.uk/secure/login/", which details an undocumented API POST endpoint on the Imperial site, that accepts a "uname" (username / Imperial shortcode) and "pwd" (password).
@@ -48,8 +49,6 @@ authImperial("SHORTCODE", "PASS").then(loggedIn => {
 * More secure authentication to prevent server-sided skimming of passwords by site owners, for campus-wide usage by Imperial societies
 
 ## Authors
-
-Contributors names and contact info
 
 Hilliam Tung - Current Joint Maths and Computer Science student @ Imperial College London
 [@HilliamT](https://github.com/HilliamT)
