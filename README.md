@@ -1,25 +1,19 @@
 # node-auth-imperial
 
-A Promise-based NodeJS authentication method for Imperial College student accounts
+A Promise-based NodeJS authentication method for Imperial College student accounts. You may find this useful for any applications you are building for student development initiatives on Imperial's campus.
 
-![npm](https://img.shields.io/npm/v/auth-imperial)
-![npm](https://img.shields.io/npm/dw/auth-imperial)
-![NPM](https://img.shields.io/npm/l/auth-imperial)
-
-
-## Dependencies
-
-* Just npm!
+[![Latest Stable Version](https://img.shields.io/npm/v/auth-imperial.svg)](https://www.npmjs.com/package/auth-imperial) [![License](https://img.shields.io/npm/l/auth-imperial.svg)](https://www.npmjs.com/package/auth-imperial) [![NPM Downloads](https://img.shields.io/npm/dt/auth-imperial.svg)](https://www.npmjs.com/package/auth-imperial) [![NPM Downloads](https://img.shields.io/npm/dm/auth-imperial.svg)](https://www.npmjs.com/package/auth-imperial)
 
 ## Installing
 
+Assuming you have `node` and `npm` installed, the package can be installed from `npm`'s public registry.
 ```
 npm install auth-imperial
 ```
 
-## Executing program
+## Usage
 
-It's as simple as exporting the module!
+The module exports one simple default method. Usage examples are below.
 ```
 const authImperial = require("auth-imperial");
 
